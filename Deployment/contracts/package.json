@@ -1,0 +1,20 @@
+{
+  "name": "inbox",
+  "version": "1.0.0",
+  "description": "Prescription",
+  "main": "compile.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Owan Hunte",
+  "license": "ISC",
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^1.4.1",
+    "dotenv": "^10.0.0",
+    "ganache-cli": "^6.12.2",
+    "mocha": "^9.0.1",
+    "solc": "^0.8.6",
+    "truffle-hdwallet-provider": "^1.0.17",
+    "web3": "^1.3.6"
+  }
+}
