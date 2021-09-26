@@ -1,0 +1,276 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0px;
+}
+a{
+	text-decoration: none;
+}
+
+/*header*/
+#headsec{
+	/*border: 1px black solid;*/
+	/*height: 100px;*/
+	color: #fff;
+	border-radius: 0px 0px 5px 5px;
+	background: #343a40;
+}
+
+#app-name{
+	margin-top: 16px;
+	margin-left: 20px;
+	color: white;
+	font-family: 'Gluten', cursive;
+}
+#app-name:hover{
+	text-decoration: none;
+}
+.navbar-nav{
+	/*border: 1px red solid;*/
+	width:100%;
+}
+.nav-box{
+	/*border: 1px white solid;*/
+	margin-left: 45%;
+}
+.nav-item-box{
+	width: 30%;
+	text-align: center;	
+	margin-left: 10%;
+	margin-right: 2%;
+	border-radius: 10px;
+	font-size: 1.1rem;
+	/*border:1px yellow solid;*/
+	margin-top: 20px;
+	margin-bottom: 15px;
+}
+.nav-link{
+	color: #fff;
+	font-weight: 600;
+}
+.nav-link:hover{
+	color: #343a40;
+}
+.nav-item-box:hover{
+	background: #fff;
+	color: #343a40;
+}
+
+.navbar-toggle-icon{
+	color: #fff;
+}
+.nav-item-box-active{
+	background: #fff;
+	color: #343a40;
+}
+.nav-active{
+	color: #343a40;
+}
+
+
+.profile-type{
+	/*border: 1px solid red;*/
+	padding: 10px;
+	width: 90%;
+	margin-left: 5%;
+	padding-top: 30px;
+}
+
+.profile-btn{
+	border: 1px solid white;
+}
+.profile-btn:first-child, .profile-btn:last-child{
+	border-radius: 50px;
+}
+
+.login-form,.prescription-form{
+	/*border: 1px solid grey;*/
+	width:100%;
+	margin-top: 60px;
+	/*height: 100px;*/
+	margin-left: 5%;
+}
+
+.input-element{
+	display: inline-block;
+	/*border: 1px solid #000;*/
+	/*width:45%;*/
+	height:50px;
+	margin:25px 4% 15px 2%;
+	margin-left: 10%;
+}
+
+.input-value{
+	width: 100%;
+	height: 100%;
+	border:0px;
+	border-bottom:1px #000 solid;
+	color: #808080;
+	text-align: center;
+}
+
+#license-chem-signup,#license-doc-signup{
+	margin-left:4%; 
+}
+
+#login-box,#retrieve-presc-btn-box,#create-presc-btn-box{
+	margin-top: 40px;
+	width: 100%;
+}
+
+#login, #retrieve-presc-btn, #create-presc-btn,#deli-presc-btn,#signup{
+	border:0px solid #000;
+	border-radius:10px;
+	text-align: center;
+	width:20%;
+	height:50px;
+	margin: 5px 33%;
+	margin-bottom: 15px;
+	font-weight: bold;
+	background:#ffcb42;
+	margin-left: 38%;
+	margin-top: 30px;
+}
+#login:hover{
+	background: #ffba03;
+	cursor: pointer;
+}
+
+.profile-btn>.nav-link:hover{
+	color: #ffcb42;
+}
+
+.profile-btn-active{
+	color: #ffcb42;
+}
+.input-element-signup, .input-element-prescription{
+	display: inline-block;
+}
+
+.profile-link-box{
+	/*border:1px white solid;*/
+	width:24%;
+	min-height: 70px;
+	padding-top: 5px;
+}
+
+.profile-link{
+	display: inline-block;
+	text-decoration: none;
+	color: #fff;
+	font-size: 1.2em;
+	font-weight: 600;
+	width: 80%;
+	min-height: 50px;
+	padding-top: 13px;
+	/*height: 100%;*/
+	margin-top:5px;
+	margin-left: 10%;
+	margin-right: 10%; 
+	border-radius: 5px;
+	padding-left: 10%;
+}
+
+.profile-link:hover{
+	text-decoration: none;
+	color: #343a40;
+	background: #fff;
+}
+.fas{
+	font-size: 1.8em;
+	margin-right: 15px;
+}
+
+
+.doc-home-box{
+	/*border:1px solid black;*/
+	margin-top:60px;
+}
+.doc-home-button-box{
+	/*border:1px solid black;*/
+	text-align: center;
+	width: 50%;
+	margin-left: 25%;
+	/*height: 50px;*/
+	margin-top: 150px;
+	margin-bottom: 30px;
+}
+.doc-home-button{
+	border-radius: 20px;
+	display: inline-block;
+	width: 65%;
+	font-size: 1.7em;
+	text-decoration: none;
+	border:3px solid #343a40;
+	background: #343a40;
+	color: #fff;
+	font-weight: 500;
+}
+.doc-home-button:hover{
+	text-decoration: none;
+	border: 3px solid #111;
+	background: #6b757e;
+	color: #fff;
+}
+
+.input-element-prescription{
+	margin-top: 60px;
+}
+
+.table{
+	margin-top: 70px;
+	margin-left: 15%;
+	width: 70%;
+	text-align: center;
+}
+
+td > input{
+	text-align: center;
+}
+
+
+.add-med{
+	/*margin-left: 76%;*/
+	/*width: 10%;*/
+	height: 30px;
+}
+.add-table{
+	margin-bottom: 100px;
+	margin-left: 15%;
+}
+@media(max-width: 730px){
+	.profile-link{
+		font-size: 0.9em;
+
+	}
+	.fas{
+		font-size: 1.3em;
+		margin-right: 8px;
+	}
+	.doc-home-button{
+		font-size: 1.3em;
+	}
+}
+
+@media(max-width: 991px ){
+	.nav-box{
+		margin-left: 10%;
+	}
+	.nav-item-box{
+		margin-left: 30%;
+		border: 3px solid white;
+	}
+
+}
+
+@media(min-width: 992px){
+	.nav-item-box:not(:first-child){
+		margin-left: 5%;
+	}
+}
+
+
+input:focus, textarea:focus, select:focus{
+        outline: none;
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PharmaFriend</title>
+	<!-- bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" rel="stylesheet">
+
+	<!-- custom CSS -->
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
+
+	<!-- font -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<!-- noto sans japanese -->
+	<link href="https://fonts.googleapis.com/css2?family=Gluten:wght@400&display=swap" rel="stylesheet"> 
+</head>
+<body>
+	<script type="text/javascript"></script>
+	<script type="module" src="scripts/index.js"></script>
+	</script>
+	<!-- start of navigation bar -->
+	<nav id="headsec" class="navbar">
+		<a  id="app-name" href="login_pat.html"><h1>PharmaFriend</h1></a>
+
+
+		<div class="profile-link-box">
+			<a class="profile-link" href="#Profile"><i class="fas fa-user fa-lg"></i></a>
+		</div>
+	</nav>
+	<!-- End of navigation	 -->
+	<div class="container-fluid">
+		<div class="row">
+				
+			<div class="prescription-form">
+				<form method="POST" action="doctor_home.html">
+				<div class="input-element input-element-prescription col-xs-9 col-sm-9 col-md-4">
+						<input class="input-value" type="text" id="doc-name-prescription" name="doc_name_prescription" value="Dr. Edwin" disabled>
+				</div>
+				<div class="input-element input-element-prescription col-xs-9 col-sm-9 col-md-4">
+						<input class="input-value" type="text" id="date-prescription" name="date_prescription" value="" disabled>
+				</div>
+				<div class="input-element input-element-prescription col-xs-9 col-sm-9 col-md-4">
+						<input class="input-value" type="text" id="patientID" name="patientID" placeholder="Patient ID*" disabled required="" value="0x071FF8CD4c85390deA6C6012709f7C280B9ae6e9">
+				</div>
+<!-- 				<table class="table add-table">
+				  <tbody>
+				    <tr>
+				      <td><input  type="text" id="med-name-presc" name="med-name-presc" placeholder="Medication Name*" value=""></td>
+				      <td><input  type="number" min="1" id="med-dose-presc" name="med-dose-presc" placeholder="Dose*" value=""></td>
+				      <td><input  type="number" id="med-days-presc" name="med-days-presc" placeholder="Days*" value=""></td>
+				      <td><button class="add-med" type="button">Add Medication</button></td>
+				    </tr>
+				  </tbody>
+				</table> -->
+
+				<table class="table" id="table-disp">
+				  <thead>
+				    <tr>
+				      <th scope="col">Medication Name</th>
+				      <th scope="col">Dose</th>
+				      <th scope="col">Duration</th>
+				       <th scope="col"></th>
+				    </tr>
+				    <tr>
+				  </thead>
+				  <tbody>
+				  </tbody>
+				</table>
+				</form>
+			</div>
+		</div>
+	</div>
+
+
+<script type="text/javascript"></script>
+<script type="module" src="scripts/index.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/gh/ethereum/web3.js@1.0.0-beta.36/dist/web3.min.js" integrity="sha256-nWBTbvxhJgjslRyuAKJHK+XcZPlCnmIAAMixz6EefVk=" crossorigin="anonymous"></script>
+<!-- custom JS -->
+	<script type="text/javascript" src="scripts/scripts.js">
+	</script>
+	<!-- <script type="text/javascript" src="prescription.js"></script> -->
+	</script>
+</body>
+</html>
